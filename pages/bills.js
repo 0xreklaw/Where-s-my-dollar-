@@ -8,6 +8,7 @@ import MonthlyInflationChanges from "../public/assets/inflation charts/monthly-i
 import PurchasingPower from "../public/assets/inflation charts/purchasing power.jpeg";
 
 const Bills = () => {
+  const PurchasingPowerUrl = "https://www.visualcapitalist.com/wp-content/uploads/2021/03/Purchasing-Power-of-the-U.S.-Dollar-Over-Time.jpg"
   return (
     <Layout>
       <Text size={400} style={{ textAlign: "center", marginBottom: "1rem" }}>
@@ -18,7 +19,7 @@ const Bills = () => {
         inflation and the mismanagement of the US economic/financial systems.
       </Text>
       <Title title={"The decreasing value of the dollar since 1913"} />
-      <Image src={PurchasingPower} className="infographic" />
+      <Image src={PurchasingPowerUrl} className="infographic" width={500} height={500} />
 
       <Image src={MonthlyInflationChanges} className="infographic" />
     </Layout>
