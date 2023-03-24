@@ -3,7 +3,7 @@ import Layout from "@/components/Layout";
 import { TwitterTweetEmbed } from "react-twitter-embed";
 import { Text } from "evergreen-ui";
 
-const bad = () => {
+const Bad = () => {
   return (
     <Layout>
       <Text size={600}>US begins to lose its position as a reserve currency</Text>
@@ -15,4 +15,4 @@ const bad = () => {
   );
 };
 
-export default bad;
+export default Bad;

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Heading, Text, Pane, Link } from "evergreen-ui";
+import { Heading, Text, Pane } from "evergreen-ui";
 import { Spinner } from "evergreen-ui";
 import Image from "next/image";
 //  assets
@@ -9,7 +9,7 @@ import balajiTweet from "../assets/balaji.png";
 import Layout from "@/components/Layout";
 import BitcoinTracker from "@/components/BitcoinTracker";
 
-const balaji = () => {
+const Balaji = () => {
   let today = new Date();
   let dueDate = new Date(2023, 5, 17);
   let dayMilliseconds = 1000 * 60 * 60 * 24;
@@ -83,4 +83,4 @@ const balaji = () => {
   );
 };
 
-export default balaji;
+export default Balaji;

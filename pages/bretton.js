@@ -2,7 +2,7 @@ import React from "react";
 import Layout from "@/components/Layout";
 import { Text } from "evergreen-ui";
 
-const bretton = () => {
+const Bretton = () => {
   return (
     <Layout>
       <Text size={400} style={{ textAlign: "center", marginBottom: "1rem" }}>
@@ -22,4 +22,4 @@ const bretton = () => {
   );
 };
 
-export default bretton;
+export default Bretton;

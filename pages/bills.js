@@ -6,7 +6,7 @@ import { Text } from "evergreen-ui";
 import MonthlyInflationChanges from "../assets/inflation charts/monthly-inflation-change.png";
 import PurchasingPower from "../assets/inflation charts/purchasing power.jpeg";
 
-const bills = () => {
+const Bills = () => {
   return (
     <Layout>
       <Text size={400} style={{ textAlign: "center", marginBottom: "1rem"}}>
@@ -23,4 +23,4 @@ const bills = () => {
   );
 };
 
-export default bills;
+export default Bills;

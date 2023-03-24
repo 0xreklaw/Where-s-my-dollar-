@@ -5,7 +5,7 @@ import { Text } from "evergreen-ui";
 //  assets
 import BitcoinOutpreformance from "../assets/bitcoin/bitcoin outpreformance.png";
 
-const bitcoin = () => {
+const Bitcoin = () => {
   return (
     <Layout>
       <Text size={600}>Bitcoin out preforms traditional assets</Text>
@@ -14,4 +14,4 @@ const bitcoin = () => {
   );
 };
 
-export default bitcoin;
+export default Bitcoin;
