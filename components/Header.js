@@ -16,7 +16,7 @@ const Header = () => {
         marginBottom={8}
         style={{ fontWeight: "500" }}
       >
-        Where's my dollar
+        Where&apos;s my dollar
       </Heading>
 
       <div style={{
@@ -25,7 +25,7 @@ const Header = () => {
       }}>
         {pages.map((page) => {
           return (
-            <Text size={400} padding="1rem">
+            <Text size={400} padding="1rem" key={page}>
               <Link href={`/${page}`}>{page}</Link>
             </Text>
           );
