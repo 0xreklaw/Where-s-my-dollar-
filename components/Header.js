@@ -3,7 +3,7 @@ import { Heading, Text } from "evergreen-ui";
 import Image from "next/image";
 import Link from "next/link";
 //  assets
-import Logo from "../assets/logo.png";
+import Logo from "../assets/logo2.png";
 
 const Header = () => {
   const pages = ["bills", "bitcoin", "banking", "bad", "bretton", "balaji"];
@@ -14,7 +14,7 @@ const Header = () => {
         size={900}
         marginTop={12}
         marginBottom={8}
-        style={{ fontWeight: "500" }}
+        style={{ fontWeight: "600", fontFamily: "times" }}
       >
         Where&apos;s my dollar
       </Heading>
