@@ -3,8 +3,8 @@ import { Heading, Text, Pane } from "evergreen-ui";
 import { Spinner } from "evergreen-ui";
 import Image from "next/image";
 //  assets
-import medlockTweet from "../assets/medlock.png";
-import balajiTweet from "../assets/balaji.png";
+import medlockTweet from "../public/assets/medlock.png";
+import balajiTweet from "../public/assets/balaji.png";
 //  components
 import Layout from "@/components/Layout";
 import BitcoinTracker from "@/components/BitcoinTracker";

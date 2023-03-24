@@ -4,7 +4,7 @@ import Image from "next/image";
 import { Text } from "evergreen-ui";
 import Title from "@/components/Title";
 //  assets
-import BitcoinOutpreformance from "../assets/bitcoin/bitcoin outpreformance.png";
+import BitcoinOutpreformance from "../public/assets/bitcoin/bitcoin outpreformance.png";
 
 const Bitcoin = () => {
   return (

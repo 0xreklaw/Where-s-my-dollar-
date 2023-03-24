@@ -4,8 +4,8 @@ import Layout from "@/components/Layout";
 import { Heading, Text } from "evergreen-ui";
 import Title from "@/components/Title";
 //  assets
-import MonthlyInflationChanges from "../assets/inflation charts/monthly-inflation-change.png";
-import PurchasingPower from "../assets/inflation charts/purchasing power.jpeg";
+import MonthlyInflationChanges from "../public/assets/inflation charts/monthly-inflation-change.png";
+import PurchasingPower from "../public/assets/inflation charts/purchasing power.jpeg";
 
 const Bills = () => {
   return (

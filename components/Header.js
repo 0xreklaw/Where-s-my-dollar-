@@ -3,7 +3,7 @@ import { Heading, Text } from "evergreen-ui";
 import Image from "next/image";
 import Link from "next/link";
 //  assets
-import Logo from "../assets/logo2.png";
+import Logo from "../public/assets/logo2.png";
 
 const Header = () => {
   const pages = ["bills", "bitcoin", "banking", "bad", "bretton", "balaji"];
