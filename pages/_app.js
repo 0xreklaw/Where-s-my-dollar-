@@ -1,11 +1,12 @@
 import "@/styles/globals.css";
 import Head from "next/head";
+import Script from "next/script";
 
 export default function App({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Where's my dollar?</title>
+        <title>Where&apos;s my dollar?</title>
         <meta
           name="description"
           content="The US financial system is off its rails. Learn about its history and track its current preformance."
