@@ -1,10 +1,18 @@
-import React from 'react'
-import { Text } from 'evergreen-ui'
+import React from "react";
+import { Text } from "evergreen-ui";
 
 const Footer = () => {
   return (
-    <Text size={400}>Printed by <a href='https://twitter.com/0xreklaw'>reklaw</a></Text>
-  )
-}
+    <>
+      <ul style={{ listStyle: "none", marginTop: "64px" }}>
+        <li>
+          <Text size={400} style={{ color: "black", fontWeight: "bold" }}>
+            <a href="https://twitter.com/wheresmydollar_">Twitter</a>
+          </Text>
+        </li>
+      </ul>
+    </>
+  );
+};
 
-export default Footer
+export default Footer;

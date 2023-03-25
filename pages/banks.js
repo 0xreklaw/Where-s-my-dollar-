@@ -7,7 +7,7 @@ const Banks = () => {
 
   return (
     <Layout>
-      <Text size={400}>
+      <Text size={400} style={{ textAlign: "center" }}>
         It is rare for a bank to fail, this year several have fallen. You can
         visit the{" "}
         <a href="https://www.fdic.gov/resources/resolutions/bank-failures/failed-bank-list/">

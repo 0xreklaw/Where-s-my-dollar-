@@ -12,14 +12,14 @@ const Header = () => {
       <Link href="/">
         <Image src={Logo} className="logo" />
       </Link>
-      <Heading
+      {/* <Heading
         size={900}
         marginTop={12}
         marginBottom={8}
         style={{ fontWeight: "600", fontFamily: "times" }}
       >
-        Where&apos;s my dollar
-      </Heading>
+        Where&apos;s my dollar?
+      </Heading> */}
 
       <div
         style={{
