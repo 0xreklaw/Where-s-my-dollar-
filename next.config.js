@@ -5,7 +5,8 @@ const nextConfig = {
     domains: [
       "upload.wikimedia.org",
       "www.visualcapitalist.com",
-      "www.etftrends.com"
+      "www.etftrends.com",
+      "fred.stlouisfed.org",
     ],
   }
 }

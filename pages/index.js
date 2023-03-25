@@ -1,11 +1,15 @@
 import React, { useEffect } from "react";
-import { useRouter } from "next/router";
+import { Text } from "evergreen-ui";
+import Layout from "@/components/Layout";
 
 const Index = () => {
-  const router = useRouter();
-  useEffect(() => {
-    router.push("/bills");
-  }, []);
+  return (
+    <Layout>
+      <Text size={400}>
+        The US financial system is off its rails, learn why.
+      </Text>
+    </Layout>
+  );
 };
 
 export default Index;

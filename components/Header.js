@@ -6,10 +6,12 @@ import Link from "next/link";
 import Logo from "../public/assets/logo2.png";
 
 const Header = () => {
-  const pages = ["bills", "bitcoin", "banking", "bad", "bretton", "balaji"];
+  const pages = ["inflation", "history", "banks"];
   return (
     <div className="header">
-      <Image src={Logo} className="logo" />
+      <Link href="/">
+        <Image src={Logo} className="logo" />
+      </Link>
       <Heading
         size={900}
         marginTop={12}
@@ -19,10 +21,12 @@ const Header = () => {
         Where&apos;s my dollar
       </Heading>
 
-      <div style={{
-        display: "flex",
-        flexDirection: "row",
-      }}>
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "row",
+        }}
+      >
         {pages.map((page) => {
           return (
             <Text size={400} padding="1rem" key={page}>
