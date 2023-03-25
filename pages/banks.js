@@ -22,7 +22,7 @@ const Banks = () => {
       <ul style={{ textAlign: "center" }}>
         {banks.map((bank) => {
           return (
-            <li style={{ listStyle: "none" }}>
+            <li style={{ listStyle: "none" }} key={bank}>
               <Text size={400}>{bank}</Text>
             </li>
           );

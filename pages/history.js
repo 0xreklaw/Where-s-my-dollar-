@@ -13,7 +13,7 @@ const History = () => {
       <Heading size={600}>Bretton Woods Conference, 1944</Heading>
       <Text size={400} style={{ textAlign: "center", margin: "1rem 0 2rem 0" }}>
         The Bretton Woods Conference on July 1, 1944 reshaped the global
-        financial system and positioned the dollar as the world's reserve
+        financial system and positioned the dollar as the world&apos;s reserve
         currency.
       </Text>
       <Heading size={600}>Off the Gold Standard, 1971</Heading>
