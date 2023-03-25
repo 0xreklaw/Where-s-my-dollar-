@@ -1,8 +1,27 @@
 import "@/styles/globals.css";
+import Head from "next/head";
 
 export default function App({ Component, pageProps }) {
   return (
     <>
+      <Head>
+        <title>Where's my dollar?</title>
+        <meta
+          name="description"
+          content="The US financial system is off its rails. Learn about its history and track its current preformance."
+        />
+        <meta
+          property="og:title"
+          content="Where's my dollar?"
+        />
+        <meta
+          property="og:description"
+          content="The US financial system is off its rails. Learn about its history and track its current preformance."
+        />
+        <meta property="og:url" content="https://wheresmydollar.us/inflation" />
+        <meta property="og:type" content="website" />
+      </Head>
+
       <Script
         strategy="afterInteractive"
         async
