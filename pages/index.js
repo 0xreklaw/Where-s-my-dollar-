@@ -11,7 +11,7 @@ const Index = () => {
         marginBottom={8}
         style={{ fontWeight: "600", textAlign: "center" }}
       >
-        If your bank go insolvent, you may ask: "Where&apos;s my dollar?"
+        If your bank go insolvent, you may ask: &quot;Where&apos;s my dollar?&quot;
       </Heading>
 
       <Heading
