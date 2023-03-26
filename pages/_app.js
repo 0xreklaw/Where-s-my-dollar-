@@ -13,7 +13,7 @@ export default function App({ Component, pageProps }) {
         />
         <meta
           property="og:title"
-          content="Where's my dollar?"
+          content="Where&apos;s my dollar?"
         />
         <meta
           property="og:description"
