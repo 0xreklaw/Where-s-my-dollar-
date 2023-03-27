@@ -9,7 +9,7 @@ import Dollar75 from "../public/assets/dollar75.png";
 const Index = () => {
   return (
     <div className="container">
-      <Image src={Logo} className="logo" />
+      <Image src={Logo} className="logo" alt="logo" />
       <Text size={500} style={{ margin: "6rem 0 6rem 0", textAlign: "center" }}>
         Inflation is the silent killer.
         <br /> Since 2000, the dollar has lost 43% of its value.
