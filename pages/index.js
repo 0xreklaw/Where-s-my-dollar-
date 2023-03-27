@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { Heading, Text } from "evergreen-ui";
 //  assets
-import Logo from "../static/images/assets/Where's My Dollar Logo.png";
+import Logo from "../static/images/Where's My Dollar Logo.png";
 import Dollar from "../public/assets/dollar.png";
 import Dollar75 from "../public/assets/dollar75.png";
 
